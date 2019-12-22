@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>pet-clini-data</module>
+        <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>springboot-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>springboot-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -44,6 +43,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/ashuprabhune/springboot-pet-clinic.git</developerConnection>
-    </scm>
+      <tag>springboot-pet-clinic-0.0.1</tag>
+  </scm>
 
 </project>
