@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
-    private  final VetService vetService;
+    private final VetService vetService;
 
     @Autowired //No need to do that
     public DataLoader(OwnerService ownerService, VetService vetService) {
@@ -46,7 +46,6 @@ public class DataLoader implements CommandLineRunner {
         vet1.setLastName("Busnaik");
 
         vetService.save(vet1);
-
 
 
     }
