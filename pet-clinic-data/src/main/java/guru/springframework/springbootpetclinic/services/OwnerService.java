@@ -4,6 +4,6 @@ import guru.springframework.springbootpetclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 
-    Owner findByLastName(Owner owner);
+    Owner findByLastName(String lastName);
 
 }
