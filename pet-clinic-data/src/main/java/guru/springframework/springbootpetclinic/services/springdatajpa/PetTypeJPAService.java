@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
-@Profile("springdatajpar")
+@Profile("springdatajpa")
 public class PetTypeJPAService implements PetTypeService {
     private final PetTypeRepository petTypeRepository;
 
